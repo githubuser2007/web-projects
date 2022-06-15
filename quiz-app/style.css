@@ -1,11 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
-    background: linear-gradient(to bottom right, #dedede , #b5d4f0 );
+    background: linear-gradient(to bottom right, #f0f0f0 , #b5d4f0 ); 
     height: 100vh;
 }
 
@@ -26,11 +25,12 @@ label{
     margin-top: 17px;
 }
 
+
 .container {
     padding: 35px 40px 35px 40px;
     background-color: white;
     display: inline-block;
-    position: absolute;
+    position: relative;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -40,4 +40,11 @@ label{
 
 .container ul li{
     list-style: none;
+}
+
+button{
+    border: none;
+    padding: 30px 40px;
+    
+
 }
