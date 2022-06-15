@@ -34,6 +34,8 @@ label{
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 1px 1px 40px rgba(0,0,0,0.199),-1px -1px  40px  rgba(0, 0, 0, 0.199);
 }
 
 .container ul li{
