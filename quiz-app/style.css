@@ -47,9 +47,12 @@ button{
     width: 100%;    
     background-color: rgb(202, 89, 202);
     border-radius: 9px;
+    cursor: pointer;
 }
 
 button:hover{
-    transition: t1,2s,ease-in-out,0,0,forwards ;
-    box-shadow: 1px 1px 9px rgb(188, 71, 211,0.5),-1px -1px  9px  rgb(202,89,202,0.5);
+    background-color: rgb(209, 60, 157);
+    color: white;
 }
+
+
