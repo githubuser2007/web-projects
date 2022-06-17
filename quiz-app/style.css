@@ -44,15 +44,14 @@ label{
 
 button{
     border: none;
-    width: 100%;    
+    width: 90%;    
     background-color: rgb(202, 89, 202);
     border-radius: 9px;
     cursor: pointer;
 }
 
 button:hover{
-    background-color: rgb(209, 60, 157);
+    background-color: rgb(241, 94, 163);
     color: white;
 }
-
 
