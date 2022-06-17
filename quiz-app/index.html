@@ -1,41 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Quiz App</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Question: what is the full form of HTML</h1>
-      <ul>
-        <li>
-          <input type="radio" name="opt1" /><label for="opt1"
-            >Hyper text markup language</label
-          ><br />
-          <input type="radio" name="opt2" /><label for="opt2"
-            >JavaScript object notation</label
-          ><br />
-          <input type="radio" name="opt3" /><label for="opt3"
-            >Cascading Style Sheets</label
-          ><br />
-          <input type="radio" name="opt4" /><label for="opt4"
-            >Application Programming Interface</label
-          ><br />
-        </li>
-      </ul>
 
-        <center><button class="btn" id="submit">Submit</button></center>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet" />
+  <title>Quiz App</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="question"></h1>
+    <ul>
+      <li>
 
 
-    </div>
-  </body>
+        <center><label for="opt1" id="label1" ></label><br/></center>
+        <input type="text" name="opt1" placeholder="answers here" id="input1"/>
+
+
+      </li>
+    </ul>
+
+    <center><button class="btn" id="submit">Submit</button></center>
+  </div>
+  <script src="app.js"></script>
+</body>
+
 </html>
