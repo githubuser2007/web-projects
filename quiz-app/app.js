@@ -10,12 +10,12 @@ const input = document.getElementById('input1');
 
 const button = document.getElementById('submit');
 
+var a = 0;
+q_label.innerText = quiz_data[a];
 
 button.addEventListener('click',function(){
     
-    var a = 0;
-    q_label.innerText = quiz_data[a];
-
-
+  q_label.innerText = quiz_data[a];
+  a++;
 
 });
