@@ -15,10 +15,15 @@
 
 .nav-item a{
     color: rgb(214, 205, 205);
+    display: none;
 }
 
 .span-burger{
     color:black ;
     width: 10px;
     height: 3px;
+}
+
+#nav-toggle{   
+    display: flex;
 }
