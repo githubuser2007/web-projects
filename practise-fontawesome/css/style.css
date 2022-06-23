@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(215, 59, 119);
+    justify-content: space-evenly;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.nav-item a{
+    color: rgb(214, 205, 205);
+}
+
+.span-burger{
+    color:black ;
+    width: 10px;
+    height: 3px;
+}
