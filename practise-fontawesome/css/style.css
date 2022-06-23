@@ -5,12 +5,13 @@
 
 .navbar{
     display: flex;
-    background-color: rgb(215, 59, 119);
     justify-content: space-evenly;
+    background-color: rgb(215, 59, 119);
 }
 
 .navbar ul{
     list-style-type: none;
+    display: inline-block;
 }
 
 .nav-item a{
@@ -18,12 +19,9 @@
     display: none;
 }
 
-.span-burger{
-    color:black ;
-    width: 10px;
-    height: 3px;
-}
 
-#nav-toggle{   
-    display: flex;
+
+#btn1{
+    border: none;
+    background-color: rgb(215, 59, 119);
 }
